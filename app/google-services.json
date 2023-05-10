@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "544724679391",
+    "project_id": "minorproject-aec1f",
+    "storage_bucket": "minorproject-aec1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544724679391:android:4f47f5e6063b1c53b3476a",
+        "android_client_info": {
+          "package_name": "com.example.mentalhealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544724679391-ke6vpp5umvjkvk1lj34cfarpna4dplki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb0LUj592tPUvH0_N3eLuiOehjBN2Y2us"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544724679391-ke6vpp5umvjkvk1lj34cfarpna4dplki.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544724679391:android:f8bece7aa9b89cbcb3476a",
+        "android_client_info": {
+          "package_name": "com.example.minorproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544724679391-dkjleqam16o3jpptvg46s6s3ltrgc67b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.minorproject",
+            "certificate_hash": "dff0a265ff49fc7e3f944622172401bdcf1872ee"
+          }
+        },
+        {
+          "client_id": "544724679391-ke6vpp5umvjkvk1lj34cfarpna4dplki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb0LUj592tPUvH0_N3eLuiOehjBN2Y2us"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544724679391-ke6vpp5umvjkvk1lj34cfarpna4dplki.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

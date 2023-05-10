@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_mentalhealth">
+
+    <fragment
+        android:id="@+id/navigation_mentalhealth"
+        android:name="com.example.mentalhealth.ui.health.HealthFragment"
+        android:label="Add Your Daily Experiences"
+        tools:layout="@layout/fragment_health" />
+
+    <fragment
+        android:id="@+id/navigation_counsellor"
+        android:name="com.example.mentalhealth.ui.counsellor.CounsellorFragment"
+        android:label="@string/nav_counselor"
+        tools:layout="@layout/fragment_counsellor" />
+
+
+</navigation>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mentalhealth">
+
+    <uses-feature android:name="android.hardware.camera.any" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/img"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/img"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UNITy">
+    <activity
+        android:name=".MyProfile"
+        android:exported="false" />
+    <activity
+        android:name=".counsellorChat.CounsellorChattingActivity"
+        android:exported="false" />
+    <activity
+        android:name=".CounsellorLoginRegister.CounsellorRegister"
+        android:exported="false" />
+    <activity
+        android:name=".CounsellorLoginRegister.CounsellorLogin"
+        android:exported="false" />
+    <activity
+        android:name=".counsellorChat.CounsellorHome"
+        android:exported="false" />
+    <activity
+        android:name=".ChosserActivity"
+        android:exported="false" />
+    <activity
+        android:name=".studentChat.ChattingActivity"
+        android:exported="false" />
+    <activity
+        android:name=".uibot.Chatbot"
+        android:exported="false" />
+    <activity
+        android:name=".videocall.VideoActivity"
+        android:exported="false" />
+    <activity
+        android:name=".CreateFeed"
+        android:exported="false" />
+    <activity
+        android:name=".MainActivity2"
+        android:exported="true"
+        android:label="@string/title_activity_main2" />
+    <activity
+        android:name=".studentRegLogIn.ForgotPasswordActivity"
+        android:exported="false"
+        android:theme="@style/Theme.UNITy" />
+    <activity
+        android:name=".studentRegLogIn.RegisterActivity"
+        android:exported="false"
+        android:theme="@style/Theme.UNITy" />
+    <activity
+        android:name=".studentRegLogIn.EmailPassLogin"
+        android:exported="true"
+        android:theme="@style/Theme.UNITy" />
+    <activity
+        android:name=".SplashActivity"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_mentalhealth"
+        android:icon="@drawable/iconmentalhealth"
+        android:title="@string/mental_health" />
+
+    <item
+        android:id="@+id/navigation_counsellor"
+        android:icon="@drawable/ic_nav_user"
+        android:title="@string/nav_counselor"
+        />
+
+</menu>
